@@ -99,3 +99,14 @@ This project demonstrates how data analysis and machine learning can be used to 
 * Evaluate model performance using metrics
 
 ---
+
+
+
+## 📊 Model Performance
+- R² Score: (write your value here)
+R squared error : 0.989326643295551
+---
+
+## 📌 How to Run
+1. Open the notebook
+2. Run all cells step by step
