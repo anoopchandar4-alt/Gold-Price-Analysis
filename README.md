@@ -31,7 +31,7 @@ The dataset includes:
 
 ## 📈 Correlation Heatmap
 
-![Correlation Heatmap](GLD-images/heatmap.png)
+![Heatmap](GLD-images/heatmap.png)
 
 ---
 
