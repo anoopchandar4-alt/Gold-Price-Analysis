@@ -31,7 +31,7 @@ The dataset includes:
 
 ## 📈 Correlation Heatmap
 
-![Heatmap](GLD-images/heatmap.png)
+![Heatmap](https://raw.githubusercontent.com/anoopchandar4-alt/Gold-Price-Analysis/main/GLD-images/correlationofGLD.png)
 
 ---
 
@@ -49,7 +49,7 @@ A regression model was used to predict gold prices.
 
 ## 📊 Actual vs Predicted Graph
 
-![Actual vs Predicted](GLD-images/actual_vs_predicted.png)
+![Actual vs Predicted](https://raw.githubusercontent.com/anoopchandar4-alt/Gold-Price-Analysis/main/GLD-images/ActualVsPredictedValue.png)
 
 ---
 
