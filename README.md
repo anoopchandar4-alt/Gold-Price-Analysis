@@ -1,45 +1,49 @@
-# Gold-Price-Analysis
-Gold price analysis using correlation and heatmap(Random Forest Regressor)
+# 🪙 Gold Price Prediction & Analysis
 
 ## 📌 Project Overview
-This project analyzes the relationship between gold prices (GLD) and various financial indicators using data analysis and machine learning techniques.
 
-The goal is to understand key factors affecting gold prices and build a model to predict them.
+This project analyzes and predicts gold prices (GLD) using financial indicators such as stock index, oil prices, silver prices, and currency exchange rates.
+
+The goal is to understand relationships between variables and build a machine learning model to predict gold prices.
 
 ---
 
-## 📊 Dataset Description
-The dataset contains the following features:
+## 📊 Dataset
 
-- **Date** → Time of observation  
-- **SPX** → Stock Market Index  
-- **GLD** → Gold Price (Target Variable)  
-- **USO** → Oil Price  
-- **SLV** → Silver Price  
-- **EUR/USD** → Currency Exchange Rate  
+The dataset includes:
+
+* **Date** → Time series data
+* **SPX** → Stock Market Index
+* **GLD** → Gold Price (Target Variable)
+* **USO** → Oil Price
+* **SLV** → Silver Price
+* **EUR/USD** → Currency Exchange Rate
 
 ---
 
 ## 🧹 Data Preprocessing
-- Removed non-numeric column (`Date`) for correlation analysis  
-- Checked for missing values  
-- Prepared dataset for machine learning  
+
+* Removed `Date` column for correlation analysis
+* Selected only numeric features
+* Checked for missing values
 
 ---
 
 ## 📈 Correlation Heatmap
 
-![Heatmap](GLD-images/heatmap.png)
+![Correlation Heatmap](GLD-images/heatmap.png)
 
 ---
 
 ## 🤖 Machine Learning Model
-A regression model was used to predict gold prices based on other financial features.
+
+A regression model was used to predict gold prices.
 
 ### Steps:
-- Split data into training and testing sets  
-- Trained model on training data  
-- Predicted gold prices on test data  
+
+* Split data into training and testing sets
+* Trained model on financial features
+* Predicted GLD values
 
 ---
 
@@ -50,50 +54,48 @@ A regression model was used to predict gold prices based on other financial feat
 ---
 
 ## 🔍 Key Insights
-- Gold (GLD) shows **strong positive correlation with Silver (SLV)**  
-- Weak negative correlation between **GLD and SPX**  
-- Oil prices (USO) have **moderate influence** on gold  
-- The model predictions closely follow actual values, showing good performance  
+
+* **GLD and SLV** show strong positive correlation
+* **SPX and GLD** show weak negative correlation
+* **USO** has moderate influence on gold prices
+* The model predictions closely follow actual values
 
 ---
 
 ## 🛠️ Technologies Used
-- Python  
-- Pandas  
-- NumPy  
-- Matplotlib  
-- Seaborn  
-- Scikit-learn  
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+
+---
 
 ## 📁 Project Structure
 
 Gold-Price-Analysis/
 │── GLD-images/
-│ ├── heatmap.png
-│ ├── actual_vs_predicted.png
+│   ├── heatmap.png
+│   ├── actual_vs_predicted.png
 │
 │── gld_price_data.csv
 │── goldpriceprediction.ipynb
 │── README.md
 
+---
 
 ## 🚀 Conclusion
+
 This project demonstrates how data analysis and machine learning can be used to understand and predict gold price movements.
 
 ---
 
 ## 🔮 Future Improvements
-- Use advanced models (Random Forest, XGBoost)  
-- Perform feature engineering  
-- Improve prediction accuracy  
+
+* Apply advanced models (Random Forest, XGBoost)
+* Improve feature engineering
+* Evaluate model performance using metrics
 
 ---
-
-
-
-
-
-
----
-
-## 📁 Project Structure
